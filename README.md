@@ -78,7 +78,7 @@ conda activate video_tool_env
 uvicorn main:app --host 127.0.0.1 --port 8080 --reload
 
 ```
-###Open a second terminal 
+### Open a second terminal 
 ```
 conda activate video_tool_env
 streamlit run ui.py
