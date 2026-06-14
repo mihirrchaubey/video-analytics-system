@@ -75,7 +75,7 @@ If you already have the environment configured as requested:
 conda activate video_tool_env
 
 # Run the FastAPI server via Uvicorn
-uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+uvicorn main:app --host 127.0.0.1 --port 8080 --reload
 ```
 
 ### Option B: Local Venv Setup
@@ -90,7 +90,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 # Run the server
-uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+uvicorn main:app --host 127.0.0.1 --port 8080 --reload
 ```
 
 ---
