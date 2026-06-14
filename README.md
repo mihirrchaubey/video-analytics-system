@@ -76,6 +76,12 @@ conda activate video_tool_env
 
 # Run the FastAPI server via Uvicorn
 uvicorn main:app --host 127.0.0.1 --port 8080 --reload
+
+```
+###Open a second terminal 
+```
+conda activate video_tool_env
+streamlit run ui.py
 ```
 
 ### Option B: Local Venv Setup
